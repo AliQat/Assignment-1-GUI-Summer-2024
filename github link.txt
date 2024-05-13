@@ -1,1 +1,2 @@
-https://aliqat.github.io/Assignment-1-GUI-Summer-2024/
+Link for the website: https://aliqat.github.io/Assignment-1-GUI-Summer-2024/
+Link for the repository: https://github.com/AliQat/Assignment-1-GUI-Summer-2024

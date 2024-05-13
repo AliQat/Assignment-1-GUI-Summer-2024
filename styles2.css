@@ -1,24 +1,24 @@
-body {
+body {                               /* Making sure the bg is the color I want and displays how I want it*/
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: burlywood;
 }
 
-.container {
+.container {                      /* The rules for the making of the container to hold my image "selfportrait.png" */
     display: flex;
     align-items: center;
     max-width: 80%;
     position: relative;
 }
 
-.image1 {
+.image1 {                       /* resizing the image for easier viewing */
     max-width: 40%;
     height: auto;
     margin-right: 20px;
 }
 
-.header-text {
+.header-text {                      /* Custom font and color for the header and line 26 to 30 are the same but a different font for the description*/
     font-family: "Danfo", serif;
     color: blanchedalmond;
 }
@@ -29,7 +29,7 @@ body {
     font-style: normal;
 }
 
-.text-column {
+.text-column {              /* hard adjusting all the rules for the text box because I can't be bothered to be smart about it now (bad choice) */
     flex: 1;
     padding: 231px;
     padding-left: 248px;

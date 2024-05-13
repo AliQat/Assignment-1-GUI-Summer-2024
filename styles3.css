@@ -1,31 +1,30 @@
-body {
+body {                              /* Making sure the bg is the color I want and displays how I want it*/
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: burlywood;
 }
 
-.gallery {
+.gallery {                          /* positioning and size for the gallery */
     display: flex;
     flex-direction: column;
     align-items: center;
     max-width: 80%;
 }
 
-.gallery-item {
+.gallery-item {                     /* positioning and size for the gallery items */
     display: flex;
     align-items: center;
     margin-bottom: 40px;
-    /* Adjust the spacing between gallery items */
 }
 
-.image1 {
+.image1 {                           /* resizing the image for easier viewing */
     max-width: 40%;
     height: auto;
     margin-right: 20px;
 }
 
-.header-text {
+.header-text {                      /* Custom font and color for the header and line 32 to 36 are the same but a different font for the description*/
     font-family: "Danfo", serif;
     color: blanchedalmond;
 }
@@ -36,7 +35,7 @@ body {
     font-style: normal;
 }
 
-.text-column {
+.text-column {                       /* rules for the first text column for zaff */
     flex: 1;
     padding: 218px;
     padding-left: 248px;
@@ -47,7 +46,7 @@ body {
     margin-left: -200px;
     padding-left: 200px;
 }
-.text-column2 {
+.text-column2 {                     /* rules for the first text column for M16A1 (the reason for having two is because I am lazy) */
     flex: 1;
     padding: 336px;
     padding-left: 248px;

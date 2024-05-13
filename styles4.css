@@ -1,11 +1,11 @@
-body {
+body {                              /* Making sure the bg is the color I want and displays how I want it*/
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     background-color: burlywood;
 }
-.head {
+.head {                             /* Font, color, size and positioning for the header banner */
     padding: 60px;
     text-align: center;
     background: rgb(102, 58, 32);
@@ -13,12 +13,12 @@ body {
     font-size: 54px;
     color: blanchedalmond;
 }
-.title {
+.title {                            /* This title is for both the main deck and extra deck (look at the site silly) */
     font-family: "Danfo", serif;
 	font-weight: 400;
   	font-style: normal;
 }
-table.deck {
+table.deck {                      /* formatting for the table as well as a font switch (assignment is more accurate) */
     width: 50%;
     border-collapse: collapse;
     margin-bottom: 20px;
@@ -28,12 +28,12 @@ table.deck {
 }
 
 table.deck th,
-table.deck td {
+table.deck td {                 /* colors for the borders as well as padding for them */
     border: 1px solid black;
     padding: 8px;
     text-align: center;
 }
 
-table.deck th {
+table.deck th {                         /* The bg color for the header of the tables */
     background-color: #f2f2f2;
 }

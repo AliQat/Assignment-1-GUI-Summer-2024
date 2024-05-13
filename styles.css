@@ -1,4 +1,4 @@
-.welcome {
+.welcome {              /* This is in charge of the big brown banner at the home page */    
   padding: 60px;
   text-align: center;
   background: rgb(102, 58, 32);
@@ -8,16 +8,16 @@
 }
 
 body {
-  background-color: burlywood;
+  background-color: burlywood; /* This is the background for everypage, a very nice color in my opinion*/
 }
 
-.grid-container {
+.grid-container { 				/*This controls the grids I have (both chains and signs)*/
 	display: flex;
 	justify-content: center;
 	margin-top: 50px;
 }
 
-.grid-item {
+.grid-item {               /* This makes the grid items separate from eachother so that they make 3 columns*/
   width: 200px;
   height: 100px;
   margin: 0 100px;
@@ -25,12 +25,12 @@ body {
   text-align: center;
 }
 
-.grid-item img {
+.grid-item img {        /* This controls how big the images are in the grid */
   width: 100%;
   height: auto;
 }
 
-.grid-item span {
+.grid-item span {                /* This is for the positioning and size and color for text in span of the grid items (on the signs) */
 	position: absolute;
 	bottom: 40px;
 	left: 50%;
@@ -38,17 +38,17 @@ body {
 	color: blanchedalmond;
 	font-weight: bold;
 }
-.link {
+.link {                              /* This is the font */
 	font-family: "Arbutus", serif;
 	font-weight: 400;
   	font-style: normal;
 }
-.chain-container {
+.chain-container { 					/* same rules applied to the grid of signs but now to the chains to make them snap to the welcome banner*/
 	display: flex;
 	justify-content: center;
 	margin-top: 0px;
 }
-.chain-item {
+.chain-item {                 /* Same rules applide to the signs but this time to the chains */
 	width: 200px;
 	height: 100px;
 	margin: 0 100px;

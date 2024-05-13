@@ -1,0 +1,42 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: burlywood;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    max-width: 80%;
+    position: relative;
+}
+
+.image1 {
+    max-width: 40%;
+    height: auto;
+    margin-right: 20px;
+}
+
+.header-text {
+    font-family: "Danfo", serif;
+    color: blanchedalmond;
+}
+
+.text {
+    font-family: "Arbutus", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.text-column {
+    flex: 1;
+    padding: 231px;
+    padding-left: 248px;
+    background-color: rgb(102, 58, 32);
+    border-radius: 0px;
+    position: relative;
+    z-index: -1;
+    margin-left: -200px;
+    padding-left: 200px;
+}

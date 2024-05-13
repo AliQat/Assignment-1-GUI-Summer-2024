@@ -1,0 +1,57 @@
+.welcome {
+  padding: 60px;
+  text-align: center;
+  background: rgb(102, 58, 32);
+  font-family: "Danfo", serif;
+  font-size: 54px;
+  color: blanchedalmond;
+}
+
+body {
+  background-color: burlywood;
+}
+
+.grid-container {
+	display: flex;
+	justify-content: center;
+	margin-top: 50px;
+}
+
+.grid-item {
+  width: 200px;
+  height: 100px;
+  margin: 0 100px;
+  position: relative;
+  text-align: center;
+}
+
+.grid-item img {
+  width: 100%;
+  height: auto;
+}
+
+.grid-item span {
+	position: absolute;
+	bottom: 40px;
+	left: 50%;
+	transform: translateX(-50%);
+	color: blanchedalmond;
+	font-weight: bold;
+}
+.link {
+	font-family: "Arbutus", serif;
+	font-weight: 400;
+  	font-style: normal;
+}
+.chain-container {
+	display: flex;
+	justify-content: center;
+	margin-top: 0px;
+}
+.chain-item {
+	width: 200px;
+	height: 100px;
+	margin: 0 100px;
+	position: relative;
+	text-align: center;
+}
